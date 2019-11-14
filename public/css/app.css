@@ -1,0 +1,126 @@
+/* colors */
+
+h1,
+h2,
+p {
+  font-family: "Raleway", "arial";
+  color: #262626;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #262626;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+a {
+  color: #262626;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.header,
+.footer {
+  height: 15px;
+  width: 100%;
+  background-color: #50C2B4;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container--full {
+  min-height: calc(100vh - 38px);
+}
+
+.image {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image--big {
+  height: 400px;
+}
+
+.image--related-recipes {
+  width: 100%;
+}
+
+.pagination-container {
+  display: table;
+  width: 100%;
+}
+
+.pagination {
+  float: right;
+}
+
+.box-shadow,
+.related-recipe-wrapper,
+.recipe-wrapper {
+  box-shadow: 0px 0px 43px -18px rgba(0, 0, 0, 0.35);
+}
+
+/* 
+Pages
+*/
+
+.recipe-block-link {
+  display: block;
+  height: 100%;
+  position: relative;
+  top: 0;
+  -webkit-transition: top 0.1s;
+  transition: top 0.1s;
+}
+
+.recipe-block-link:hover {
+  top: -3px;
+}
+
+.recipe-wrapper {
+  background-color: white;
+  height: 100%;
+}
+
+.recipe-section {
+  margin-bottom: 40px;
+}
+
+.related-recipe-wrapper {
+  background-color: white;
+  width: 100%;
+  display: table;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0;
+  -webkit-transition: top 0.1s;
+  transition: top 0.1s;
+}
+
+.related-recipe-wrapper:hover {
+  top: -3px;
+}
+
